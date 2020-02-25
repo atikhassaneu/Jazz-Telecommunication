@@ -1,0 +1,1476 @@
+/ ========================================================================== / / ========================================================================== / / [/*Table of contents*/] / / ========================================================================== / / ========================================================================== / /*	
+01. ## Top Bar CSS	
+02. ## Main Header CSS	
+03. ## Search Bar CSS 
+04. ## Home Slider CSS	
+05. ## Services Area CSS	
+06. ## Market Project CSS	
+07. ## Second Project Area	
+08. ## Counter Up CSS	
+09. ## Mission Progress bar CSS 
+10. ## Company Logo Area CSS 
+11. ## contact us Area CSS	
+12. ## Cta Area CSS	
+13. ## About Area CSS	
+14. ## Hero Area	
+15. ## About-Us Area 
+16. ## Our Client Area 
+17. ## Our Team Area 
+18. ## Blog Area CSS 
+19. ## Contact Area CSS 
+20. ## Top To Button CSS 
+20. ## Footer Area CSS */ /* ## Global */
+
+
+
+/* --=== Start CSS ===-- */
+
+.margin-top-100 {
+    margin-top: 100px;
+}
+.margin-top-30 {
+    margin-top: 30px;
+}
+.section-padding {
+    padding: 80px 0px;
+}
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #676767;
+    background: #f9f9f9;
+    line-height: 1.6;
+}
+
+input:focus, textarea:focus, button:focus, a:focus, select:focus {
+    outline:none;
+}
+
+input[type="text"],input[type="email"],input[type="number"],select {
+    border: 1px solid #cacaca;
+    padding:  7px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+/*--------======== Top Bar CSS Start =========--------*/
+.top-bar {
+	background-color: #1F2D3D;
+	font-size: 13px;
+	height: 45px;
+	line-height: 45px;
+	transition: all 0.2s ease 0s;
+}
+.contact-details {
+  float: left;
+  height: 100%;
+}
+.top-bar ul {
+	list-style: outside none none;
+	margin: 0;
+	padding: 0;
+}
+.top-bar ul li {
+	display: inline-block;
+	margin-right: 1px;
+}
+.top-bar ul.contact-details li{
+	margin-right: 10px;
+}
+.top-bar, .top-bar ul li, .top-bar ul li a {
+	color: #ffffff;
+}
+.top-bar .contact-details li i, .top-bar .header-social a {
+    background-color: #005dac;
+	display: inline-block;
+	font-size: 14px;
+	height: 2em;
+	line-height: 2em;
+	text-align: center;
+	transition: all 0.3s ease-out 0s;
+	width: 2em;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    border-radius: 4px;
+}
+.top-bar .contact-details li i{
+	margin-right: 10px;
+}
+.top-bar .header-social{
+	text-align: right;
+	float: right;
+    height: 100%;
+}
+.top-bar .header-social li:last-child{
+	margin-right: 0;
+}
+.top-bar .header-social li a:hover{
+	background-color: #262629;
+	color: #fff; 
+}
+/*-----------======== Top Bar CSS End ========-----------*/
+
+
+/*-----------======== Main Header CSS Start =======-----------*/
+.main-header {
+    background-color: #ffffff;
+}
+.main-header .navbar-brand {
+    color: #262629;
+    font-size: 29px;
+    font-weight: 900;
+    padding: 12px 0px;
+}
+.main-header .navbar {
+    padding: 0;
+}
+.main-header .navbar-brand span {
+    color: #005dac;
+}
+.main-header .navbar-dark .navbar-brand:focus, .navbar-dark .navbar-brand:hover {
+    color: #262629;
+}
+.main-header .navbar-dark .navbar-nav .nav-link {
+    color: #262629;
+    font-size: 16px;
+    display: inline-block;
+    padding: 26px 20px;
+    font-weight: 500;
+}
+.main-header .navbar-dark .navbar-nav .nav-link:hover {
+    color: #005dac;
+    transition: .4s;
+}
+.main-header .navbar-dark .navbar-nav  .active {
+    color: #005dac;
+}
+.header-search {
+    font-size: 18px;
+}
+
+/*Drop Down Menu Start*/
+
+.drop-menu {
+    position:  relative;
+    display:  inline-block;
+    z-index: 99;
+    transition: .4s;
+}
+.drop-menu ul {
+    padding:  0;
+    margin:  0;
+    list-style: none;
+}
+.drop-menu ul {
+    position: absolute;
+    visibility: hidden;
+    top: 150%;
+    background: #fff;
+    width: 200px;
+    opacity: 0;
+    border-top: 2px solid #005dac;
+    transition: 0.8s;
+}
+.drop-menu ul li a {
+    display:  inline-block;
+    padding: 10px 20px;
+    width: 100%;
+    text-decoration:  none;
+    color:  #111;
+    transition: 0.4s;
+}
+.drop-menu ul li a:hover {
+    width: 100%;
+    color: #005dac;
+}
+.drop-menu:hover ul {
+    visibility: visible;
+    opacity: 1;
+    top: 100%;
+}
+/*Drop Down Menu End*/
+
+/*Search Bar CSS*/
+.search-area {
+    position: fixed;
+    display: inline-block;
+    z-index: 99;
+    right: -427px;
+    width: 427px;
+    background: rgba(238,79,30,.3);
+    padding: 0px 39px;
+    box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	transition: all 0.3s cubic-bezier(0, 0.57, 0.74, 1.06);
+	-webkit-transition: all 0.3s cubic-bezier(0, 0.57, 0.74, 1.06);
+	-moz-transition: all 0.3s cubic-bezier(0, 0.57, 0.74, 1.06);
+	-o-transition: all 0.3s cubic-bezier(0, 0.57, 0.74, 1.06);
+}
+.search-box .form-control {
+    padding: 10px 15px;
+    width: 349px;
+    margin: 30px 0px;
+    background: rgba(0,0,0,.5);
+    color: #fff;
+    border: 0;
+}
+.search-box .form-control:focus {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    -ms-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
+}
+.search-box i.fa {
+    position: absolute;
+    right: 53px;
+    font-size: 18px;
+    color: #005dac;
+    bottom: 42px;
+}
+.search-area.toggled {
+   right: 0;
+ }
+.new-search {
+    display: none;
+}
+
+/*----------======== Main Header CSS End ========----------*/
+
+
+/*----------======= Home Slider CSS Start ========----------*/
+.home-top-slider div:not(.owl-nav):not(.owl-dots) {
+	height: 100%;
+}
+
+.home-top-slider .slider-content {
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0px 0px;
+}
+.home-top-slider .slider-content {
+    position: relative;
+    z-index: 0;
+}
+
+.home-top-slider .slider-content:before {
+    content:  '';
+    position:  absolute;
+    top:  0;
+    left:  0;
+    background: #000;
+    width:  100%;
+    height:  100%;
+    opacity: .7;
+    z-index: -1;
+}
+
+.home-top-slider.owl-theme .owl-nav{
+	margin: 0;
+}
+.home-top-slider.owl-theme .owl-nav [class*=owl-prev], .home-top-slider.owl-theme .owl-nav [class*="owl-next"] {
+    position: absolute;
+    top: 44%;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 40px;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, .4);
+    color: rgba(0, 0, 0, .4);
+    -moz-transition: 0.4s linear;
+    -webkit-transition: 0.4s linear0.4s linear;
+    -moz-transition: 0.4s linear;
+    -ms-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    transition: 0.4s linear;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+}
+.home-top-slider.owl-theme .owl-nav [class*=owl-prev] {
+    left: 25px;
+}
+.home-top-slider.owl-theme .owl-nav [class*="owl-next"] {
+    right: 25px;
+}
+.home-top-slider.owl-theme .owl-nav [class*="owl-"]:hover {
+    background: #005dac none repeat scroll 0 0;
+    color: #FFF;
+    text-decoration: none;
+}
+.slider-text-content {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+	display: table-cell;
+	vertical-align: middle;
+}
+.slider-text-content h4.slider-small-title {
+	font-size: 15px;
+	font-weight: 700;
+	line-height: 19px;
+	margin: 0;
+	padding-left: 8px;
+	text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.slider-text-content h1.slider-big-title {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 70px;
+    margin: 10px 0px 25px;
+}
+.slider-text-content h1.slider-big-title span {
+	color: #005dac;
+}
+.learn-btn {
+    border: 1px solid #005dac;
+    padding: 15px 35px;
+    display: inline-block;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 500;
+    background-color: #005dac;
+    font-size: 15px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+    -moz-transition: 0.4s linear;
+    -webkit-transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -ms-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    transition: 0.4s linear;
+    margin-top: 25px;
+}
+.learn-btn:hover {
+    background-color: #fff;
+    color: #005dac;
+    text-decoration: none;
+    border-color: #fff;
+}
+/*--------========== Home Slider CSS End ===========--------*/
+
+
+/*--------========= Services Area CSS Start ==========--------*/
+.services-area {
+    background-color: #ffffff;
+}
+
+.services-single-box {
+    text-align: center;
+    background: #fff;
+    padding: 30px 40px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, .2);
+     -moz-box-shadow: 0px 5px 20px rgba(0, 0, 0, .2);
+    -webkit-box-shadow: 0px 5px 20px rgba(0, 0, 0, .2);
+    -ms-box-shadow: 0px 5px 20px rgba(0, 0, 0, .2);
+    -o-box-shadow: 0px 5px 20px rgba(0, 0, 0, .2);
+    margin-top: 30px;
+    transition: .5s;
+    min-height: 350px;
+}
+
+.services-single-box:hover{
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, .2);
+     -moz-box-shadow: 0px 5px 5px rgba(0, 0, 0, .2);
+    -webkit-box-shadow: 0px 5px 5px rgba(0, 0, 0, .2);
+    -ms-box-shadow: 0px 5px 5px rgba(0, 0, 0, .2);
+    -o-box-shadow: 0px 5px 5px rgba(0, 0, 0, .2);
+}
+
+.services-icon i.fa {
+    font-size: 85px;
+    color: #005dac;
+    position: relative;
+}
+.services-icon img {
+    width: 85px;
+}
+.services-single-box h4 {
+    font-size:  18px;
+    padding: 20px 0px 10px;
+}
+/*--------========= Services Area CSS End ==========--------*/
+
+
+/*--------========= Market Project CSS Start ==========--------*/
+.project-title h2 {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    position:  relative;
+}
+
+.project-title p {
+    font-size: 18px;
+}
+
+.project-title h2 span {
+    color: #005dac;
+}
+
+.project-title h2:after {
+    position:  absolute;
+    content:  '';
+    top: 138%;
+    left:  50%;
+    width: 100px;
+    height: 2px;
+    background: #005dac;
+    display:  inline-block;
+    margin-left: -50px;
+}
+
+.project-title h2:before {
+    position:  absolute;
+    content: '';
+    top: 117%;
+    left:  50%;
+    width: 15px;
+    height: 15px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    background: #005dac;
+    margin-left: -8px;
+}
+
+.project-single-box {
+    background: #fff;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .2);
+     -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, .2);
+    -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, .2);
+    -ms-box-shadow: 0px 0px 10px rgba(0, 0, 0, .2);
+    -o-box-shadow: 0px 0px 10px rgba(0, 0, 0, .2);
+}
+
+.project-single-box:hover {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, .2);
+     -moz-box-shadow: 0px 0px 20px rgba(0, 0, 0, .2);
+    -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, .2);
+    -ms-box-shadow: 0px 0px 20px rgba(0, 0, 0, .2);
+    -o-box-shadow: 0px 0px 20px rgba(0, 0, 0, .2);
+}
+
+.project-single-box, .project-photo img {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius:  5px;
+}
+
+.project-content h4 {
+    font-size:  18px;
+    margin: 0;
+    padding: 20px 0px 30px;
+    position: relative;
+    font-weight: 500;
+    color: #111;
+}
+
+.project-content h4:before {
+    position:  absolute;
+    content:  '';
+    top: 73%;
+    left:  0;
+    width:  100px;
+    height: 2px;
+    background: #005dac;
+}
+
+.project-content p {
+    max-width: 100%;
+    font-size: 15px;
+    margin: 0;
+}
+
+.project-content a {
+    display:  inline-block;
+    text-decoration:  none;
+    color:  #005dac;
+    padding: 10px 0px;
+    font-weight:  500;
+    font-size: 15px;
+    -moz-transition: 0.4s linear;
+    -webkit-transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -ms-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    transition: 0.4s linear;
+}
+.project-content a:hover {
+    color: #111;
+}
+
+.project-content a i.fa {
+    padding-left: 6px;
+    font-size: 16px;
+}
+
+
+/*------ Second-Project Area Start --------*/
+.second-project-single-box {
+    position: relative;
+    margin-top: 30px;
+}
+.second-project-single-box img {
+    width: 100%;
+    height: 100%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+}
+.project-when-hover {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background: rgba(255,255,255,.5);
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transform: scale(0);
+    -moz-transition: 1s linear;
+    -webkit-transition: 1s linear;
+    -moz-transition: 1s linear;
+    -ms-transition: 1s linear;
+    -o-transition: 1s linear;
+    transition: 1s linear;
+}
+.second-project-single-box:hover .project-when-hover {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+} 
+.project-when-hover a {
+    padding-top: 120px;
+    display: inline-block;
+    text-decoration: none;
+    color: #111;
+    font-size: 20px;
+    font-weight: 500;
+    -moz-transition: 0.4s linear;
+    -webkit-transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -ms-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    transition: 0.4s linear;
+}
+.project-when-hover a:hover {
+    color: #005dac;
+}
+.project-when-hover p {
+    padding-top: 10px;
+    color: #676767;
+    font-size: 13px;
+}
+.link-the-project {
+    position: relative;
+}
+.link-the-project::after {
+    position: absolute;
+    content: '';
+    left: 0;
+    width: 85px;
+    height: 1px;
+    background: #005dac;
+    right: 0;
+    margin: 35px auto;
+}
+/*------ Second-Project Area End --------*/
+
+
+/*-------=========== Market Project CSS End ==========-------*/
+
+
+
+
+/*-------=========== Counter Up CSS Start ==========-------*/
+.counter-area {
+    background: #005dac;
+    /*background-image: url(../img/home-bg1.jpg);*/
+    padding: 30px 0px;
+    /*background-size: cover;*/
+    position: relative;
+}
+.counter-area:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    opacity: .5;
+}
+.counter-single-box {
+    border: 1px solid rgba(255,255,255,.3);
+    padding: 17px 4px;
+    background-color: rgba(0, 0, 0, .3);
+    color: #fff;
+}
+.counter-single-box i.fa {
+    font-size:  35px;
+    color: #005dac;
+}
+
+.counter-single-box h2 {
+    margin:  0;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.counter-single-box p {
+    font-size:  18px;
+    margin:  0;
+    text-transform:  uppercase;
+    padding: 10px 0px;
+    color: #fff;
+}
+.counter-single-box p span {
+    color: #005dac;
+}
+/*-------=========== Counter Up CSS End ==========-------*/
+
+
+
+
+/*-------=========== Mission Progress bar CSS Start ==========-------*/
+.mission-area {
+    background: #fff;
+}
+.mission-content {
+    margin-bottom: 0px;
+}
+.mission-content h4 {
+    font-size:  16px;
+    font-weight:  500;
+    color: #005dac;
+}
+.mission-content p {
+    font-size: 16px;
+    line-height: 28px;
+    padding-top: 10px;
+	margin: 0 auto;
+}
+.mission-content h2 {
+    font-size:  31px;
+    line-height:  47px;
+    font-weight: 500;
+    color: #111;
+}
+.mission-progress-bar {
+    margin-top: 30px;
+}
+
+.skillbar {
+	position:relative;
+	display:block;
+	margin-bottom:45px;
+	width:100%;
+	background:#eee;
+	height:10px;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	-webkit-transition:0.4s linear;
+	-moz-transition:0.4s linear;
+	-ms-transition:0.4s linear;
+	-o-transition:0.4s linear;
+	transition:0.4s linear;
+	-webkit-transition-property:width, background-color;
+	-moz-transition-property:width, background-color;
+	-ms-transition-property:width, background-color;
+	-o-transition-property:width, background-color;
+	transition-property:width, background-color;
+}
+
+.skillbar-title {
+	position:absolute;
+	top:-28px;
+	left:0;
+	font-weight:500;
+	font-size:14px;
+	color:#111;
+	background: transparent;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-bottom-left-radius:4px;
+	-moz-border-top-left-radius:3px;
+	-moz-border-bottom-left-radius:3px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+
+.skillbar-bar {
+	height:10px;
+	width:0px;
+	background:#6adcfa;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+}
+
+.skill-bar-percent {
+	position:absolute;
+	right:10px;
+	top:-30px;
+	font-size:13px;
+	height:35px;
+	line-height:35px;
+	color:#111;
+}
+/*-------=========== Mission Progress bar CSS End ==========-------*/
+
+
+
+
+/*-------=========== Company Logo Area CSS Stard ==========-------*/
+.company-logo-area {
+    /*background: url(../img/company-logo-bg.jpg);*/
+    /*background-size: cover;*/
+    background: #08375E;
+    padding: 40px 0px;
+    position: relative;
+}
+.company-logo-area:before {
+    position:  absolute;
+    content:  '';
+    top:  0;
+    left:  0;
+    width:  100%;
+    height:  100%;
+    background: #005dac;
+    opacity: .2;
+}
+#client-logo img {
+    -moz-transition: 0.4s linear;
+    -webkit-transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -ms-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    transition: 0.4s linear;
+}
+#client-logo img:hover {
+    opacity: .3;
+}
+/*-------=========== Company Logo Area CSS End ==========-------*/
+
+
+
+
+/*-------=========== contact us Area CSS Start ==========-------*/
+.contact-area {
+    background: #fff;
+}
+.contact-info {
+    margin-bottom: 30px;
+}
+.contact-info h3 {
+    font-size: 25px;
+    color: #111;
+}
+.contact-info p {
+    font-size: 16px;
+    padding-top: 10px;
+}
+.contact-info ul {
+    padding:  0;
+    margin:  0;
+    list-style:  none;
+    padding-top: 10px;
+}
+
+.contact-info ul li {
+    padding-bottom: 15px;
+}
+
+.contact-info ul li i.fa {
+    padding-right:  8px;
+    font-size: 19px;
+    color: #005dac;
+}
+.contact-form .form-group {
+    margin-bottom: 0;
+}
+.contact-form .form-control {
+    margin-bottom: 10px;
+}
+.contact-form .form-control:focus {
+    border-color: transparent;
+    border-color: #005dac;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    -ms-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
+}
+.contact-btn {
+    padding: 15px 35px;
+    background:  #005dac;
+    border: 0;
+    text-transform:  uppercase;
+    font-weight: 500;
+    color: #fff;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+    -moz-transition: 0.4s linear;
+    -webkit-transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -ms-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    transition: 0.4s linear;
+    
+}
+button.contact-btn:hover {
+    background: #111;
+}
+/*-------=========== contact Area CSS End ==========-------*/
+
+
+
+
+/*-------=========== Cta Area CSS Start ==========-------*/
+.cta-area {
+    background: #005dac;
+    padding: 40px 0px;
+}
+.cat-content h2 {
+    font-size: 25px;
+    font-weight: 400;
+    line-height:  45px;
+    padding-top: 10px;
+    color: #fff;
+}
+.cta-button {
+    text-align: right;
+	margin-top: 3px;
+}
+.cta-btn {
+    padding: 18px 40px;
+    display:  inline-block;
+    text-transform:  uppercase;
+    font-weight: 500;
+    border-radius:  5px;
+    background:  #fff;
+    color: #111;
+    -moz-transition: 0.4s linear;
+    -webkit-transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -ms-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    transition: 0.4s linear;
+}
+.cta-btn:hover {
+    background: #111;
+    color: #fff;
+    text-decoration: none;
+}
+/*-------=========== Cta Area CSS End ==========-------*/
+
+
+
+
+/*-------=========== About Area CSS Start ==========-------*/
+
+
+/*--- Hero Area Start ---*/
+.hero-area {
+    padding: 200px 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hero-info h2 {
+    font-size:  30px;
+    margin-bottom: 20px;
+    color: #111;
+}
+.hero-info a {
+    text-decoration:  none;
+    color:  #fff;
+    font-size:  16px;
+    -moz-transition: 0.4s linear;
+    -webkit-transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -ms-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    transition: 0.4s linear;
+}
+.hero-info a:hover {
+    color: #005dac;
+}
+.hero-info a i.fa {
+    padding:  0px 7px;
+    color: #005dac;
+}
+.hero-info span {
+    color: #005dac;
+    font-size: 16px;
+}
+/*--- Hero Area End ---*/
+
+
+/*--- About-Us Area Start ---*/
+
+.about-content h5 {
+    font-size:  18px;
+    color:  #005dac;
+    margin-bottom: 10px;
+}
+.about-content h2 {
+    font-size:  30px;
+    color:  #111;
+    margin-bottom: 25px;
+}
+.about-content p {
+    font-size: 16px;
+    line-height: 27px;
+    margin: 0 auto;
+}
+/*--- About-Us Area End ---*/
+
+
+/*--- Our-Client Area Start ---*/
+.our-client-area {
+    background: url(../img/home-bg1.jpg);
+    background-size: cover;
+}
+.about-client-info {
+    background: #fff;
+    padding: 30px 40px;
+    border-radius: 5px;
+    margin: 30px 0px 0px;
+}
+.about-client-info img {
+    width: 74px !important;
+    border-radius: 50%;
+    border: 2px solid #005dac;
+    text-align: center;
+    margin: 0 auto;
+}
+.about-client-content h5 {
+    font-size:  18px;
+    margin-top:  30px;
+    text-align:  center;
+}
+.about-client-content h6 {
+    font-size: 17px;
+    font-weight:  300;
+    text-align:  center;
+    margin-bottom: 18px;
+    color: #005dac;
+}
+.about-client-content p {
+    font-size:  16px;
+    line-height:  28px;
+    margin: 0;
+    text-align: center;
+}
+.about-client-content p:before {
+    position: absolute;
+    content: '\f10d';
+    margin-top: -7px;
+    margin-left: -23px;
+    font-family: fontawesome;
+    color: #005dac;
+}
+.about-client-content p:after {
+    position: absolute;
+    content: '\f10e';
+    font-family: fontawesome;
+    color: #005dac;
+    margin-top: 7px;
+    margin-left: 8px;
+}
+/*--- Our-Client Area End ---*/
+
+
+/*--- Our-Team Area Start ---*/
+.our-team-info {
+    background: #fff;
+    margin-top: 30px;
+    border-radius: 5px;
+    -moz-box-shadow: 0px 0px 8px rgba(0,0,0,.2);
+    -webkit-box-shadow: 0px 0px 8px rgba(0,0,0,.2);
+    -ms-box-shadow: 0px 0px 8px rgba(0,0,0,.2);
+    -o-box-shadow: 0px 0px 8px rgba(0,0,0,.2);
+    box-shadow: 0px 0px 8px rgba(0,0,0,.2);
+    position: relative;
+}
+.our-team-info:hover {
+     -moz-box-shadow: 0px 0px 8px rgba(0,0,0,.7);
+    -webkit-box-shadow: 0px 0px 8px rgba(0,0,0,.7);
+    -ms-box-shadow: 0px 0px 8px rgba(0,0,0,.7);
+    -o-box-shadow: 0px 0px 8px rgba(0,0,0,.7);
+    box-shadow: 0px 0px 8px rgba(0,0,0,.7);
+    -moz-transition: 0.4s linear;
+    -webkit-transition: 0.5s linear;
+    -moz-transition: 0.5s linear;
+    -ms-transition: 0.5s linear;
+    -o-transition: 0.5s linear;
+    transition: 0.5s linear;
+}
+.team-img img {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 100%;
+}
+.our-team-when-hover ul {
+    padding:  0;
+    margin:  0;
+    list-style:  none;
+}
+.our-team-when-hover ul li {
+    display:  inline-block;
+}
+.our-team-when-hover ul li a {
+    display:  inline-block;
+    padding: 0px 0px 0px 0px;
+    width:  30px;
+    height:  30px;
+    background:  #005dac;
+    border-radius:  5px;
+    color:  #fff;
+    text-align:  center;
+    line-height:  30px;
+    margin-right:  5px;
+    -moz-transition: 0.4s linear;
+    -webkit-transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -ms-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    transition: 0.4s linear;
+}
+.our-team-when-hover ul li a:hover {
+    background: rgba(0,0,0,.1);
+}
+.our-team-when-hover {
+    position:  absolute;
+    top:  0;
+    left: 0;
+    right:  0;
+    text-align:  center;
+    line-height: 292px;
+    font-size:  14px;
+    background: rgba(0, 0, 0, .5);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    transform: scale(0);
+    -moz-transition: 1s linear;
+    -webkit-transition: 1s linear;
+    -moz-transition: 1s linear;
+    -ms-transition: 1s linear;
+    -o-transition: 1s linear;
+    transition: 1s linear;
+}
+.our-team-info:hover .our-team-when-hover {
+    transform: scale(1);
+}
+.our-team-content {
+    padding: 20px 20px;
+}
+.our-team-content h5 {
+    font-size: 18px;
+}
+.our-team-content h6 {
+    font-size: 17px;
+    font-weight: 300;
+    color: #005dac;
+}
+.our-team-content p {
+    max-width: 80%;
+    margin:  0 auto;
+    padding-top: 12px;
+}
+/*--- Our-Team Area End ---*/
+
+
+/*-------=========== About Area CSS End ==========-------*/
+
+
+
+
+/*-------=========== Blog Area CSS Start ==========-------*/
+.blog-single-box img {
+    width: 100%;
+    height: 100%;
+    -moz-transition: 1s linear;
+    -webkit-transition: 1s linear;
+    -moz-transition: 1s linear;
+    -ms-transition: 1s linear;
+    -o-transition: 1s linear;
+    transition: 1s linear;
+}
+.blog-single-box:hover img {
+    transform: scale(1.1);
+}
+.blog-single-box {
+    background: #ffff;
+    margin-top: 30px;
+    overflow: hidden;
+    box-shadow: 0px 10px 30px 0px rgba(50,50,50,.16);
+    -moz-transition: 1s linear;
+    -webkit-transition: 1s linear;
+    -moz-transition: 1s linear;
+    -ms-transition: 1s linear;
+    -o-transition: 1s linear;
+    transition: 1s linear;
+}
+.blog-single-box:hover {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    -ms-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
+}
+.blog-content {
+    padding: 20px 10px;
+}
+.blog-content ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.blog-content ul li {
+    padding: 5px 15px 10px 0px;
+    display: inline-block;
+    font-weight: 500;
+}
+.blog-content ul li i.fa {
+    padding-right: 8px;
+    color: #005dac;
+}
+.blog-bottom {
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+.blog-bottom a {
+    position: absolute;
+    right: 25px;
+    display: inline-block;
+    margin-top: -25px;
+    color: #676767;
+    font-size: 15px;
+    -moz-transition: 0.4s linear;
+    -webkit-transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -ms-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    transition: 0.4s linear;
+}
+.blog-bottom a:hover {
+    color: #005dac;
+    text-decoration: none;
+}
+.blog-bottom a i.fa {
+    padding-left: 10px;
+}
+.blog-bottom p {
+    font-size: 15px;
+    position: relative;
+    margin: 0;
+    padding-top: 10px;
+}
+.blog-bottom p i.fa {
+    padding-right: 10px;
+}
+/*-------=========== Blog Area CSS End ==========-------*/
+
+
+
+
+/*-------=========== Contact Area CSS Start ==========-------*/
+.contact-address-bar {
+    text-align: center;
+    margin-top: 30px;
+}
+.contact-address-bar i.fa {
+    font-size: 45px;
+    border: 2px solid #005dac;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 80px;
+    color: #005dac;
+}
+.contact-text {
+    top: 15px;
+    left: 113px;
+}
+.contact-text h5 {
+    font-size: 20px;
+}
+.contact-text p {
+    margin: 0;
+}
+
+.contact-message {
+    background-size: cover;
+}
+.message-btn {
+    width: 100%;
+}
+.contact-btn.message-btn:hover {
+    background: #fff;
+    color: #111;
+}
+#map {
+    display: block;
+    width: 100%;
+    height: 300px;
+}
+/*-------=========== Contact Area CSS End ==========-------*/
+
+
+
+
+/*-------=========== Top To Button CSS Start ==========-------*/
+.btn-set {
+    width: 45px;
+    height: 45px;
+    background-color: rgba(0, 0, 0, .5);
+    background: #fff;
+    box-shadow: 0px 0px 18px rgba(0, 0, 0, .5);
+    color: #005dac;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px;
+    line-height: 45px;
+    cursor: pointer;
+    position: fixed;
+    right: 30px;
+    bottom: 55px;
+    display: none;
+    z-index: 99;
+     -moz-transition: 0.4s linear;
+    -webkit-transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -ms-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    transition: 0.4s linear;
+}
+.btn-set i.fa {
+    
+}
+.btn-set:hover {
+    background-color: #005dac;
+    color: #fff;
+}
+/*-------=========== Top To Button CSS End ==========-------*/
+
+
+
+
+/*-------=========== Footer Area CSS Start ==========-------*/
+.footer-area {
+    background: #212121;
+    padding-top: 80px;
+}
+.footer-info h2 a {
+    color: #fff;
+    font-size: 29px;
+    font-weight: 900;
+    padding-bottom: 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+.footer-info h2 span {
+    color: #005dac;
+}
+.footer-info {
+    margin-bottom: 0px;
+}
+.footer-info h3 {
+    font-size:  20px;
+    padding-bottom:  30px;
+    position:  relative;
+    color: #fff;
+}
+.footer-info h3:before {
+    position:  absolute;
+    content:  '';
+    top: 60%;
+    left:  0;
+    width:  50px;
+    height:  2px;
+    background: #005dac;
+}
+.footer-link, .footer-social {
+    padding:  0;
+    margin:  0;
+    list-style:  none;
+}
+.footer-social {
+    margin-top: 43px;
+}
+.footer-link li a {
+    display:  inline-block;
+    padding: 0px 0px 9.7px;
+    font-size: 16px;
+    text-decoration:  none;
+    color: #ccc;
+}
+.footer-link li a i.fa {
+    padding-right: 6px;
+}
+.footer-link li a:hover i.fa {
+    color: #005dac;
+}
+.footer-info p {
+    color: #ccc;
+    font-size: 15px;
+    line-height: 26px;
+    -moz-transition: 0.4s linear;
+    -webkit-transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -ms-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    transition: 0.4s linear;
+}
+.post-title a p:hover {
+    color: #005dac;
+}
+.post-content {
+    margin-bottom: 5px;
+    display: inline-block;
+}
+.post-img {
+    float: left;
+}
+.post-img img {
+    width: 70px;
+}
+.post-title {
+    float: right;
+    width: 68%;
+}
+.post-title a p {
+    display: inline-block;
+    text-decoration: none;
+	line-height: 24px;
+    color: #fff;
+}
+.post-title p {
+    margin: 0;
+}
+.post-title span {
+    color: #ccc;
+    font-size: 13px;
+}
+.footer-info form {
+    margin-top: 28px;
+}
+.footer-info .form-control {
+    background-color: rgba(54,54,54,1);
+    border-color: rgba(54,54,54,1);
+    color: #fff;
+    margin-bottom: 10px;
+}
+.footer-info .form-control:focus {
+    background-color: rgba(54,54,54,1);
+    border-color: rgba(54,54,54,1);
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    -ms-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
+}
+input[type="submit"] {
+    padding: 10px 0px;
+    cursor: pointer;
+    background: #005dac !important;
+}
+
+
+.footer-social li {
+    display:  inline-block;
+}
+.footer-social li a {
+    display:  inline-block;
+    width:  30px;
+    height:  30px;
+    background:  #005dac;
+    text-align:  center;
+    border-radius:  5px;
+    line-height: 30px;
+    margin-right: 3px;
+    color: #fff !important;
+    -moz-transition: 0.4s linear;
+    -webkit-transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -ms-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    transition: 0.4s linear;
+}
+.footer-social li a:hover {
+    background: #1F2D3D;
+}
+.footer-bottom p {
+    font-size: 15px;
+    padding-top: 67px;
+}
+.footer-bottom p span {
+    color: #fff;
+}
+.footer-bottom p span span {
+    color: #005dac;
+}
+.footer-bottom:before {
+    position:  absolute;
+    content:  '';
+    top: 40px;
+    left:  0;
+    width: 100%;
+    height:  1px;
+    background: #005dac;
+}
+.footer-bottom {
+    position:  relative;
+}
+
+/*-------=========== Footer Area CSS End ==========-------*/
+
+.home-top-slider .slider-content{
+    padding: 0px !important;
+}
+
+#slider {
+    height: auto !important;
+}

@@ -1,0 +1,236 @@
+@media (min-width: 992px) and (max-width:1199px) {
+    .home-top-slider .slider-content {
+        padding-left: 80px;
+    }
+    .post-img img {
+        width: 60px;
+    }
+    .project-title p {
+        font-size: 16px;
+    }
+    .project-content h4 {
+        padding: 20px 0px 17px;
+    }
+    .project-content h4:before {
+        top: 80%;
+    }
+    .project-content p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width:992px) {
+    .home-top-slider .slider-content {
+        padding-left: 80px;
+    }
+    .post-img img {
+        width: 60px;
+    }
+    .project-title p {
+        font-size: 16px;
+    }
+    .project-content h4 {
+        padding: 20px 0px 10px;
+    }
+    .project-content h4:before {
+        top: 87%;
+    }
+}
+
+
+
+@media (min-width: 768px) and (max-width:991px){
+    .main-header .navbar-dark .navbar-nav .nav-link {
+        font-size: 14px;
+        padding: 26px 16px;
+    }
+    .project-content {
+        padding-left: 20px;
+    }
+    .project-content p {
+        padding-top: 10px;
+    }
+    .project-content h4:before {
+        top: 95%;
+    }
+    .project-content a {
+        margin-bottom: 10px;
+    }
+    
+    .cat-content h2 {
+        text-align: center;
+    }
+    .cta-button {
+        text-align: center;
+        margin-top: 10px;
+    }
+    .post-title {
+        width: 74%;
+    }
+    .post-img img {
+        width: 70px;
+    }
+    .project-photo img {
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-bottom-left-radius: 0px;
+    }
+    .counter-area {
+        padding-top: 60px;
+    }
+    .counter-single-box {
+        margin-bottom: 30px;
+    }
+    .slider-text-content h1.slider-big-title {
+        font-size: 59px;
+    }
+}
+
+
+@media (max-width:768px) {
+    .mission-progress-bar {
+        margin-top: 65px;
+    }
+}
+
+
+@media (max-width:767px) {
+    .navbar-toggler {
+        background: #005dac;
+		cursor: pointer;
+    }
+    .navbar-dark .navbar-toggler {
+        border-color: #005dac;
+    }
+	.main-header .navbar-dark .navbar-nav .nav-link {
+		padding: 12px 0px;
+		width: 100%;
+	}
+    .top-bar {
+        display: none;
+    }
+    .slider-text-content h1.slider-big-title {
+        font-size: 45px;
+        line-height: 55px;
+    }
+    .project-title p {
+        max-width: 65%;
+        margin: 0 auto;
+    }
+    .project-content {
+        padding: 20px 0px 20px 30px;
+    }
+    .project-photo img {
+        width: 100%;
+    }
+    .project-content p {
+        max-width: 75%;
+        padding-top: 10px;
+    }
+    .project-photo img {
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-bottom-left-radius: 0px;
+    }
+    .cat-content h2 {
+        text-align: center;
+    }
+    .cta-button {
+        text-align: center;
+        margin-top: 10px;
+    }
+    .post-title {
+        width: 75%;
+    }
+    .post-img img {
+        width: 70px;
+    }
+    /*serarch item*/
+    .search-area {
+        display: none;
+    }
+    .header-search {
+        position: relative;
+        z-index: 99;
+        bottom: -36px;
+        left: 18px;
+    }
+    /* new search bar */
+    .new-search {
+        display: inline-block;
+    }
+    input.new-search {
+        margin-top: -11px;
+        margin-bottom: 15px;
+        width: 100%;
+        padding: 10px 54px;
+        border-radius: 5px;
+        border: 1px solid #EE4F1E;
+    }
+    .counter-single-box {
+        margin: 15px 0px;
+    }
+}
+    
+ 
+
+@media (max-width:640px)  {
+    .home-top-slider.owl-theme .owl-nav [class*=owl-prev], .home-top-slider.owl-theme .owl-nav [class*="owl-next"] {
+        display: none;
+    }
+    .home-top-slider .slider-content {
+        padding-left: 25px;
+    }
+}
+
+@media (max-width:568px)  {
+    .main-header .navbar {
+        padding: 0px 20px;
+    } 
+}
+
+
+@media (max-width:375px){
+    .slider-text-content h1.slider-big-title {
+        font-size: 31px;
+        line-height: 45px;
+    }
+    .slider-text-content p {
+        font-size: 16px;
+    }
+}
+
+    
+@media (max-width:320px)  {
+    .navbar-dark .navbar-toggler {
+        font-size: 14px;
+    }
+	.post-img img {
+        width: 52px;
+    }
+    .slider-text-content h1.slider-big-title {
+        font-size: 26px;
+        line-height: 43px;
+    }
+    .home-top-slider .slider-content {
+        padding: 16px 0px;
+        padding-left: 15px;
+    }
+    .project-title p {
+        max-width: 75%;
+    }
+	.slider-text-content p {
+        font-size: 15px;
+    }
+    
+	
+} 
+    
+   
+
+    
+    
+    
+    
+    
+    
